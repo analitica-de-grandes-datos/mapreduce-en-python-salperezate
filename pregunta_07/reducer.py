@@ -9,4 +9,4 @@ if __name__ == '__main__':
         lista.append(line)
     l = sorted(lista,key=lambda x: (x[0],int(x[2])))
     for i in l:
-        sys.stdout.write('{}\t{}\t{}\n'.format(i[0],i[1],i[2]))
+        sys.stdout.write('{}   {}   {}\n'.format(i[0],i[1],i[2]))
