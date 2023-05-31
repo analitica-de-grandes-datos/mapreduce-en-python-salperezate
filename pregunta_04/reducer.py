@@ -1,7 +1,7 @@
 #
 # >>> Escriba el codigo del reducer a partir de este punto <<<
 #
-mport sys       
+import sys       
 if __name__ == '__main__':
     l = []  
     for line in sys.stdin:
